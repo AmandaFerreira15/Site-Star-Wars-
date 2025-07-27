@@ -1,0 +1,71 @@
+body {
+      margin: 0;
+        font-family: 'Share Tech Mono', monospace;
+          background: #000;
+            color: #ffe81f;
+            }
+
+            header {
+              background: url('https://wallpapercave.com/wp/wp2752854.jpg') center/cover no-repeat;
+                height: 60vh;
+                  display: flex;
+                    align-items: center;
+                      justify-content: center;
+                        text-align: center;
+                          box-shadow: inset 0 -10px 20px rgba(0,0,0,0.8);
+                          }
+
+                          header h1 {
+                            font-size: 4em;
+                              text-shadow: 2px 2px 8px #000;
+                                animation: glow 2s infinite alternate;
+                                }
+
+                                @keyframes glow {
+                                  from { text-shadow: 0 0 10px #ffe81f; }
+                                    to   { text-shadow: 0 0 20px #ffe81f, 0 0 30px #fff; }
+                                    }
+
+                                    section {
+                                      padding: 40px 20px;
+                                        max-width: 1000px;
+                                          margin: auto;
+                                          }
+
+                                          .quote {
+                                            font-size: 1.5em;
+                                              text-align: center;
+                                                margin: 30px 0;
+                                                  font-style: italic;
+                                                  }
+
+                                                  .cards {
+                                                    display: flex;
+                                                      gap: 20px;
+                                                        flex-wrap: wrap;
+                                                          justify-content: center;
+                                                          }
+
+                                                          .card {
+                                                            background: rgba(255, 255, 255, 0.05);
+                                                              border: 2px solid #ffe81f;
+                                                                border-radius: 12px;
+                                                                  padding: 20px;
+                                                                    width: 300px;
+                                                                      text-align: center;
+                                                                        box-shadow: 0 0 10px #ffe81f44;
+                                                                        }
+
+                                                                        .card img {
+                                                                          width: 100%;
+                                                                            border-radius: 8px;
+                                                                            }
+
+                                                                            footer {
+                                                                              text-align: center;
+                                                                                padding: 20px;
+                                                                                  background: #111;
+                                                                                    color: #888;
+                                                                                      font-size: 0.9em;
+                                                                                      }
+}
